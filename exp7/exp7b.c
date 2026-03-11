@@ -42,7 +42,7 @@ int main() {
         
         char original[MAX];
         strcpy(original, message.msg_text);
-        // there are types while sending mesg for child its 1 for parent its 2.
+        // there are types while sending mesgs, for child its 1 for parent its 2.
 
         // Send to child using the type 1
         message.msg_type = 1;
